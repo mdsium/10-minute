@@ -1,0 +1,789 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+
+  .checkbtn{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    float:left;
+    cursor: pointer;
+    display: none;
+    margin-top: -40px;
+  }
+  #check{
+    display: none;
+  }
+
+
+  .header-area {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: #fff;
+}
+.menu-area {
+    display: inline-block;
+}
+
+.logo {
+    display: inline;
+    margin-right: 25px;
+}
+  .menu-area ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .menu-area ul li {
+    display: inline-block;
+  }
+  
+  .menu-area ul li a {
+    display: block;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    color: #3f3f3f;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    transition: .6s;
+  }
+  .logo img {
+    width: 120px;
+    padding: 5px 0;
+}
+
+.menu-area ul li a:hover {
+    background-color: #ff284f;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+  .contact-btn-area {
+    padding: 10px;
+    text-align: right;
+  }
+  select#language {
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3f3f3f;
+    background: none;
+    font-family: 'Noto Sans Bengali', sans-serif;
+  }
+  .contact-btn-area .contact-btn {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: 2px solid #3f3f3f;
+    background: #3f3f3f;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+  }
+  .contact-btn-area .contact-btn:hover {
+    color: #3f3f3f;
+    background: none;
+    border: 2px solid #3f3f3f;
+    
+}
+  .contact-btn-area .contact-btn i {
+    margin-right: 10px;
+  }
+  .header-area {
+    padding: 15px 0;
+    background: antiquewhite;
+}
+/*hero area*/
+.section-padding{
+    padding: 80px 0;
+}
+.hero-text span img {
+    margin: 0 auto;
+    text-align: right;
+    display: block;
+}
+.hero-area {
+    background: #1a161f;
+    color: #fff;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    color: #fff;
+}
+
+.hero-area h1 {
+    font-size: 45px;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.hero-text select#course {
+    padding: 10px 20px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
+.hero-text form {
+    padding: 10px;
+    background: #2b2533;
+    max-width: 421px;
+    border-radius: 10px;
+}
+.hero-text a {
+    text-decoration: none;
+    color: #fff;
+    background: #27895d;
+    padding: 12px 35px;
+    border-radius: 5px;
+}
+/*course menu*/
+.course-memu {
+    background: #f7f8fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+.course-item svg {
+    width: 60px;
+}
+
+.course-item p {
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding-left: 20px;
+    transition: .5s ease-in-out;
+    padding: 30px 5px;
+}
+.course-item:hover p {
+    color: #198754;
+}
+
+.course-item {
+    background: #fff;
+    border-radius: 7px;
+    padding: 0 30px;
+    transition: .5s ease-in-out;
+    border: 2px solid #fff;
+}
+.course-item:hover {
+    border: 2px solid #198754;
+    color: #198754;
+}
+.course-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.course-section .container .row .col-md-12 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.course-section .container .row .col-md-12 h1 {
+    font-size: 36px;
+}
+.card-text {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.card-text .card-icon a img {
+    margin-bottom: 24px;
+}
+
+.card-text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text p {
+    max-width: 310px;
+    margin: 0 auto;
+}
+/*class section*/
+.card-bg {
+    background-image: url(img/icon/academic-bg.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 160px;
+    border-radius: 0px 12px 0px 0px;
+}
+.class-icon-section svg {
+    width: 25px;
+}
+
+.class-buttom-text h2 {
+    font-size: 21px;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 18px 15px 5px;
+}
+
+.class-icon-section {
+    display: inline-block;
+    padding: 8px 20px;
+}
+.class-card-text {
+    background: rgb(5, 95, 96);
+    border-radius: 10px 10px 0 0;
+}
+
+.class-card-text h2 {
+    font-size: 24px;
+    color: #fff;    
+    font-weight: 500;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: -60px;
+}
+.class-end-text p {
+    text-align: center;
+    padding: 12px 0;
+    border-top: 2px solid #2222;
+    font-size: 18px;
+    font-weight: 500;
+    color: #198754;
+}
+.class-section {
+    padding:  80px 0;
+    background: #F7F8FA;
+}
+.class-card{
+    transition: .3s ease-in-out;
+    margin-top: 35px;
+}
+.class-card:hover {
+    box-shadow: -10px 0 20px #0000000a, 10px 10px 20px #0000000a;
+    border-radius: 10px;
+    transform: scale(1.04,1.02);
+    margin-top: 20px;
+}
+.class-buttom-text {
+    background: #fff;
+    
+    border-radius: 0px 0px 10px 10px;
+}
+.class-text h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.class-text p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.addmission-card {
+    display: inline-flex;
+}
+.addmission-text svg {
+    width: 25px;
+    height: 25px;
+}
+.addmission-img img {
+    max-width: 205px;
+}
+
+.addmission-text h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0;
+    margin: 0;
+}
+.addmission-text {
+    padding: 8px 62px  8px 24px;
+}
+
+.addmission-img {
+    padding: 0;
+}
+
+.addmission-card:hover {
+    transform: scale(1.10,1.08);   
+     box-shadow: -10px 0 20px #00000012, 10px 10px 20px #00000012;
+}
+
+.addmission-card {
+    transition: .3s;
+    background: #F7F8FA;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 15px;
+}
+
+
+.addmission-img img {
+    border-radius: 8px 0px 0px 8px;
+}
+.section-btn a button {
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 28px;
+    border: none;
+    background: #27895d;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.job-card-text p {
+    text-align: center;
+    padding: 12px 0;
+    border-top: 2px solid #2222;
+    font-size: 18px;
+    font-weight: 500;
+    color: #198754;
+}
+.job-card-text p {
+    text-align: center;
+    padding: 12px 0;
+    border-top: 2px solid #2222;
+    font-size: 18px;
+    font-weight: 500;
+    color: #198754;
+}
+
+.job-card-text {
+    padding-top: 18px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.job-card-text h2 {
+    font-size: 20px;
+    padding: 12px 12px 16px;
+    color: #000;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.jobpreparation-section {
+    background: #F7F8FA;
+}
+
+.job-card-img img {
+    border-radius: 10px 10px 0px 0px;
+}
+.job-card:hover {
+    transform: scale(1.04,1.02);
+    margin-top: 20px;
+    box-shadow: -10px 0 20px #00000012, 10px 10px 20px #00000012;
+}
+
+.job-card {
+    transition: .3s;
+    margin-top: 35px;
+}
+.job-head-text h2 {
+    font-size: 28px;
+}
+
+.job-head-text p {
+    font-size: 20px;
+}
+.projects-list{
+    visibility: none;
+}
+/*filter section */
+  .portfolio_filter ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.portfolio_filter ul li {
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+.portfolio_filter ul li a {
+    display: block;
+    padding: 4px 20px;
+    border: 1px solid rgb(191, 191, 191);
+    font-size: 18px;
+    border-radius: 9999px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+.portfolio_filter .portfolio .active-i a {
+    background: #f0fff0;
+    border: 1px solid #42a258;
+    color: #42a258;
+    border-radius: 20px;
+}
+
+
+.grid-sizer {
+    width: 33.33333333%;
+  }
+  .owl-item.active {
+    width: 230px;
+}
+
+/* review section css style */
+.review-head-text p {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+section.section-padding.view-section {
+    background-color: #fafafa;
+}
+.review-card-bgimg img {
+    position: absolute;
+    z-index: -999;
+    top: -60px;
+}
+.review-card-bgimg {
+    position: relative;
+}
+
+
+.review-user-id {
+    display: flex;
+    position: relative;
+}
+
+.review-card-area {
+    margin-top: 75px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px -5px #d8d8d8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.review-user-id img {
+    width: 65px!important;
+    height: 65px;
+    margin-top: 10px;
+    border-radius: 50px;
+    top: 0;
+    z-index: 99999;
+    position: relative;
+}
+.review-user-id span img {
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    margin-top: -40px;
+    width: auto!important;
+    z-index: 9999;
+    height: auto;
+}
+.review-head-text p {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.review-user-text p {
+    font-size: 16px;
+    padding-top: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.user-id-text h4 {
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #282929;
+    padding: 15px 5px 0px 15px;
+}
+
+.user-id-text p {
+    margin: 0;
+    padding: 5px 0 0 15px;
+    color: #AFAFAF;
+}
+.owl-dots {
+    text-align: center;
+}
+.review .owl-dots .owl-dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+    background: #c8c8c8;
+    border-radius: 50%;
+    margin: 5px;
+}
+.review .owl-dots .owl-dot.active {
+    background: #40a767;
+}
+/* review section css style end */
+
+
+
+/* achievement section */
+.achievement-head-text p {
+    font-size: 32px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+
+
+.achievement-content-area {
+    overflow: hidden;
+    margin-top: 30px;
+}
+.achievement-text {
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 25px 16px;
+    display: flex;
+}
+.achievement-head-text p {
+    margin-bottom: 30px;
+}
+
+.achieve-text {
+    padding-left: 30px;
+}
+
+.achieve-text h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+    color: #000;
+}
+
+.achieve-text p {
+    font-size: 20px;
+    color: #757575;
+}
+
+.buttom-text p {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.buttom-text p a {
+    color: #27895D;
+}
+/* achievement section end */
+/* mobile-app */
+
+.achievement-text.app-text {
+    padding: 0;
+}
+.app-text span i svg {
+    /* background: rgb(56, 101, 243); */
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 4px;
+}
+.app-text span{
+    padding: 5px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+span.download-icon {
+    background: #f14135;
+    
+}
+span.tracking-icon {
+    background: #e3aa3d;
+}
+
+span.online-icon {
+    background: #3865f3;
+}
+
+span.notification-icon {
+    background: #27895d;
+}
+.top-text-area h2 {
+    font-size: 33px;
+    color: #fff;
+}
+
+section.mobile-app .section-padding .container .row {
+    background: #000;
+    border-radius: 15px;
+    padding: 48px 32px;
+}
+.top-text-area h2 {
+    font-size: 33px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+section.mobile-app .section-padding .container .row {
+    background: #000;
+    border-radius: 20px;
+    padding: 48px 32px;
+}
+
+
+.achievement-text.app-text h4 {
+    color: #fff;
+    padding: 13px 0px 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.play-img img {
+    padding: 25px 0;
+}
+.portfolio_filter.mobile-app-filter ul li a {
+    border: none;
+    border-radius: 0;
+}
+
+.portfolio_filter.mobile-app-filter ul li a img {
+    min-width: 80px;
+    height: 30px;
+    max-width: 110px;
+    cursor: pointer;
+}
+.portfolio_filter.mobile-app-filter ul li a img {
+    max-width: fit-content;
+    height: 45px;
+    opacity: .4;
+    margin: 10px auto;
+}
+.col-md-12 .single_facilities p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 700px;
+    padding-top: 25px;
+    display: inline-block;
+}
+.success-stories-top-text p {
+    font-size: 25px;
+    margin: 20px 0;
+}
+.mobile-app-filter .success-stories-nev .active-i{
+    border-bottom: 2px solid #000;
+   
+}
+.mobile-app-filter .success-stories-nev .active-i a img {
+    opacity: 1;
+    margin: 10px auto;
+}
+/* mobile-app end */
+/* join us section */
+
+
+.join-us-image img {
+    width: 100%;
+}
+.join-us-image img {
+    width: 100%;
+}
+.join-us-text h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #3f3f3f;
+}
+
+.join-us .section-padding .container .row {
+    align-items: center;
+}
+/* join us section end */
+/* footer section start */
+.footer-section{
+    background-color: #fafafa;
+}
+.footer-logo img {
+    max-width: 172px;
+}
+
+.footer-logo-text h3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 0;
+}
+
+.footer-logo-text h3 a {
+    color: #15803d;
+}
+.footer-text ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-text ul li {
+    padding: 2px 0px;
+    display: inline-block;
+}
+
+.footer-text ul li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-text ul li strong {color: #3f3f3f;}
+
+.footer-icon-area a {
+    padding-right: 15px;
+    margin-top: 22px;
+    display: inline-block;
+}
+/* footer section end */

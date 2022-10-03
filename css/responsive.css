@@ -1,0 +1,420 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    padding-top: 10px;
+  }
+  .menu-area ul li{
+    display: block;
+  }  .menu-area ul li a{
+    margin: 0;
+  }
+  nav ul li{
+    display: block;
+    margin: 15px 0;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .logo {
+    text-align: center;
+    padding: 0;
+}
+.contact-btn-area { 
+   text-align: right;
+}
+select#language {
+  display: none;
+}
+
+.contact-btn-area {
+  margin-top: -50px;
+}
+
+.contact-btn-area .contact-btn {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #000;
+}
+.contact-btn-area .contact-btn:hover {
+  color: #eb2026;
+  border: none;
+}
+i.fas.fa-arrow-right {
+  display: none;
+}
+.menu-area {
+  display: block;
+}
+
+.logo {
+  display: block;
+}
+.hero-area {
+  text-align: center;
+}
+.section-padding {
+  padding: 40px 0;
+}
+.hero-text select#course {
+  margin-bottom: 16px;
+  width: 100%;
+}
+.hero-text a {
+  padding: 11px 50px;
+}
+.hero-text form {
+  padding-bottom: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.course-item {
+  margin-top: 10px;
+  text-align: center;
+}
+.course-item p {
+  font-size: 20px;
+  padding: 10px 5px;
+}
+.course-item svg {
+  width: 40px;
+  margin: 10px 0;
+}
+
+.col-md-5.addmission-img img {
+  border-radius: 0;
+}
+
+.col-md-5.addmission-img {
+  width: 295px;
+  margin: 0 auto;
+}
+
+.addmission-card {
+  border-radius: 0;
+}
+.addmission-img img {
+  max-width: 150px;
+}
+.addmission-text h2 {
+  font-size: 14px;
+  padding-top: 5px;
+  
+}
+.addmission-text {
+  padding: 5px 8px;
+}
+.addmission-text svg {
+  width: 16px;
+  height: 16px;
+}
+.addmission-text span {
+  font-size: 12px;
+}
+.course-section .container .row .col-md-12 h1 {
+  font-size: 24px;
+}
+.course-section .container .row .col-md-12 p {
+  font-size: 16px;
+}
+.achieve-text p {
+  font-size: 16px;
+}
+.achieve-text h2 {
+  font-size: 24px;
+}
+.top-text-area {
+  text-align: center;
+}
+.join-us-text {
+  text-align: center;
+}
+
+.section-btn {
+  text-align: center;
+  padding: 15px;
+}
+.footer-section{
+  text-align: center;
+}
+.portfolio_filter ul li a {
+  display: block;
+  padding: 4px 1px;
+  border: 1px solid rgb(191, 191, 191);
+  font-size: 14px;
+  border-radius: 9999px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 30px;
+  text-align: center;
+}
+.owl-carousel, .owl-carousel .owl-item {
+  -webkit-tap-highlight-color: transparent;
+  position: sticky;
+}
+.row.course-memu .col-md-3 {
+  width: 50%!important;
+  margin: 8px 0;
+}
+.section-btn a button {
+  font-size: 16px;
+}
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+      
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    padding-top: 10px;
+  }
+  .menu-area ul li{
+    display: block;
+  }  .menu-area ul li a{
+    margin: 0;
+  }
+  nav ul li{
+    display: block;
+    margin: 15px 0;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .logo {
+    text-align: center;
+    padding: 0;
+}
+.contact-btn-area { 
+   text-align: right;
+}
+select#language {
+  font-weight: 700;
+  font-size: 17px;
+  color: #000;
+}
+
+.contact-btn-area .contact-btn {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #000;
+}
+.contact-btn-area .contact-btn:hover {
+  color: #eb2026;
+  border: none;
+}
+i.fas.fa-arrow-right {
+  display: none;
+}
+.menu-area {
+  display: block;
+}
+
+.logo {
+  display: block;
+  margin-left: 12rem;
+}
+.hero-text select#course {
+  padding: 10px 20px;
+  margin-right: 7px;
+  border-radius: 5px;
+  max-width: 176px;
+}
+.owl-carousel, .owl-carousel .owl-item {
+  -webkit-tap-highlight-color: transparent;
+  position: sticky;
+}
+.addmission-img img {
+  max-width: 100%;
+}
+.addmission-card {
+  display: block;
+  margin: 15px 4px;
+}
+.addmission-img img {
+  border-radius: 8px 8px 0px 0px;
+}
+.row.course-memu .col-md-3 {
+  width: 50%!important;
+  margin: 8px 0;
+}
+
+    }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    padding-top: 10px;
+  }
+  .menu-area ul li{
+    display: block;
+  }  .menu-area ul li a{
+    margin: 0;
+  }
+  nav ul li{
+    display: block;
+    margin: 15px 0;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .logo {
+    text-align: center;
+    padding: 0;
+}
+.contact-btn-area { 
+   text-align: right;
+}
+select#language {
+  font-weight: 700;
+  font-size: 17px;
+  color: #000;
+}
+
+.contact-btn-area .contact-btn {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #000;
+}
+.contact-btn-area .contact-btn:hover {
+  color: #eb2026;
+  border: none;
+}
+i.fas.fa-arrow-right {
+  display: none;
+}
+.menu-area {
+  display: block;
+}
+
+.logo {
+  display: block;
+  margin-left: 12rem;
+}
+.hero-text select#course {
+  padding: 10px 20px;
+  margin-right: 7px;
+  border-radius: 5px;
+  max-width: 176px;
+}
+.owl-carousel, .owl-carousel .owl-item {
+  -webkit-tap-highlight-color: transparent;
+  position: sticky;
+}
+.addmission-img img {
+  max-width: 100%;
+}
+.addmission-card {
+  display: block;
+  margin: 15px 4px;
+}
+.addmission-img img {
+  border-radius: 8px 8px 0px 0px;
+}
+.row.course-memu .col-md-3 {
+  width: 50%!important;
+  margin: 8px 0;
+}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .menu-area ul li a {
+    padding: 5px 8px;
+    margin: 0;
+   
+}
+.contact-btn-area .contact-btn {
+  padding: 10px 15px;
+  
+}
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
+
+
+
+
+
+
+
+/*QuickStart-layout*/
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
